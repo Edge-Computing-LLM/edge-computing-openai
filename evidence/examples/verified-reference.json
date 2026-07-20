@@ -1,0 +1,29 @@
+{
+  "project": "EdgeProof",
+  "release": "0.1.0",
+  "environment": {
+    "operating_system": "Ubuntu 24.04",
+    "kubernetes_distribution": "k3s",
+    "gpu": "NVIDIA GeForce 940M",
+    "gpu_memory_mib": 1024,
+    "allocatable_kubernetes_gpus": 1
+  },
+  "summary": {
+    "passed": 13,
+    "warnings": 0,
+    "failed": 0,
+    "verdict": "VERIFIED"
+  },
+  "privacy": {
+    "prompt_text_included": false,
+    "model_response_included": false,
+    "api_keys_included": false,
+    "kubernetes_secrets_included": false,
+    "kubeconfig_included": false,
+    "model_weights_included": false
+  },
+  "limitations": [
+    "Version 0.1.0 validates selected infrastructure contracts.",
+    "It does not yet semantically parse every Kubernetes object."
+  ]
+}

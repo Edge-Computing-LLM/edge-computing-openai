@@ -1,0 +1,8 @@
+name: Edge LLM Operator
+description: Safely inspect private LLM infrastructure on Linux, k3s and NVIDIA GPUs.
+default_prompt: >
+  Inspect the Edge-Computing-LLM workspace and k3s cluster using
+  read-only commands. Validate the NVIDIA runtime, local model,
+  inference path and observability components. Treat Completed jobs
+  as successful. Produce privacy-safe findings and request approval
+  before any mutating repair.

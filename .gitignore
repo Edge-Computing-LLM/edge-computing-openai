@@ -1,0 +1,42 @@
+# Generated evidence and local reports
+results/
+evidence/generated/
+*.log
+coverage.out
+
+# Build output
+bin/
+dist/
+*.test
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+kubeconfig
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Large AI artifacts
+*.gguf
+*.safetensors
+*.onnx
+*.bin
+
+# Local helper files used to construct this repository
+[0-9][0-9]_*.py
+[0-9][0-9][a-z]_*.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
