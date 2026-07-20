@@ -40,3 +40,7 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local live-cluster evidence
+evidence/build-week-2026/
+evidence/local/
